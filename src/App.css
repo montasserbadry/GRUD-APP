@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+  text-align: center;
+}
+body,
+h1,
+h2,
+input,
+button {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.froms input,
+.froms button {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #888;
+  border-radius: 2px;
+  margin: 2px;
+}
+button {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.post {
+  width: 70%;
+  border: 1px solid #666;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #fff;
+}
+.post button {
+  width: 150px;
+  margin: 5px;
+  display: inline-block;
+}
